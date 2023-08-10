@@ -10,8 +10,8 @@ Antes de executar o script, certifique-se de que você está executando-o como r
 
 1. Faça o download do script para o seu sistema Linux.
 2. Abra o terminal e navegue até o diretório onde o script foi baixado.
-3. Dê permissão de execução ao script com o comando: `chmod +x nome_do_script.sh`
-4. Execute o script como root: `sudo ./nome_do_script.sh`
+3. Dê permissão de execução ao script com o comando: `chmod +x install-apache.sh`
+4. Execute o script como root: `sudo ./install-apache.sh`
 
 ## O que o script faz?
 
