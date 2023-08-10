@@ -13,9 +13,9 @@ apt install unzip -y
 
 echo "Baixando e configurando os arquivos do site"
 wget -c https://github.com/denilsonbonatti/linux-site-dio/archive/refs/heads/main.zip -O /tmp/apache.zip
-rm -rf /var/www/*
-unzip /tmp/apache.zip -d "/var/www/"
-
+rm -rf /var/www/html/*
+unzip /tmp/apache.zip 
+cp -R /tmp/linux-site-dio-main /var/www/html/
 echo "Configurações realizadas"
 
 
